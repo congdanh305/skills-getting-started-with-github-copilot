@@ -74,6 +74,24 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-list.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: #d11a2a;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.2s ease;
+}
+
+.delete-participant:hover {
+  color: #8b0000;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
